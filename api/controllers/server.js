@@ -8,7 +8,7 @@ const OS = require('os');
 const Package = require("../../package.json");
 const LogHandler = require('../../Lib/Logger/LogHandler');
 const FileLogStore = require('../../Lib/Logger/FileLogStore');
-const FileLogger = require('js-Logger');
+const FileLogger = require('js-logger');
 
 const logStore = new FileLogStore('logging.log');
 const handler = new LogHandler(logStore);
