@@ -13,7 +13,7 @@ const FileLogger = require('js-Logger');
 const logStore = new FileLogStore('logging.log');
 const handler = new LogHandler(logStore);
 
-FileLogger.setLevel(Logger.INFO);
+FileLogger.setLevel(FileLogger.INFO);
 FileLogger.setHandler((messages, context) => {
     handler.handle(messages, context);
 });
