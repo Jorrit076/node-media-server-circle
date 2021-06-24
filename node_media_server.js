@@ -5,7 +5,7 @@
 //
 
 const Https = require('https');
-const Logger = require('./node_core_logger');
+ const Logger = require('./node_core_logger');
 const NodeRtmpServer = require('./node_rtmp_server');
 const NodeHttpServer = require('./node_http_server');
 const NodeTransServer = require('./node_trans_server');

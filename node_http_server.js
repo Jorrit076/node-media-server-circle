@@ -17,7 +17,7 @@ const NodeFlvSession = require('./node_flv_session');
 const HTTP_PORT = 80;
 const HTTPS_PORT = 443;
 const HTTP_MEDIAROOT = './media';
-const Logger = require('./node_core_logger');
+// const Logger = require('./node_core_logger');
 const context = require('./node_core_ctx');
 
 const streamsRoute = require('./api/routes/streams');
